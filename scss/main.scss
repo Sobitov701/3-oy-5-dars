@@ -65,28 +65,35 @@
   width: 100%;
   margin: 140px auto;
   position: relative;
+  background-image: url("/imeges/Layer_1.pngss"), url("/imeges/doodle-4.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
-  .block-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.block-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    h1 {
-      color: #002959;
-      font-size: 61px;
-      font-weight: 600;
-      line-height: 70px;
-      text-align: center;
-    }
+  background-image: url("/imeges/doodle-5.png");
+  background-position: top 10px right;
+  background-repeat: no-repeat;
+}
 
-    p {
-      color: #002959;
-      font-size: 19px;
-      line-height: 28px;
-      text-align: center;
-      margin-top: 40px;
-    }
-  }
+h1 {
+  color: #002959;
+  font-size: 61px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+}
+
+p {
+  color: #002959;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .block-info {
